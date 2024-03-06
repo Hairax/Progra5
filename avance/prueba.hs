@@ -1,1 +1,4 @@
-data MyList a = Nil | Cons a (MyList a) deriving Show   
+
+data Nat = Zero | Succ Nat
+
+Zero :: Nat and Succ :: Nat -> Nat
